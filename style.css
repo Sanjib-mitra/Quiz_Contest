@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B53471;
+}
+.container{
+    width: 600px;
+    min-width: 400px;
+    background-color: #833471;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px;
+}
+.answer-btn{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+.btn{
+    background-color: #F79F1F;
+    border: 1px solid #833471;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+}
+.btn:hover{
+    background-color: #B53471;
+}
+.correct{
+    background-color: green;
+}
+.wrong{
+    background-color: red;
+}
+.start-btn,.next-btn{
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hide{
+    display: none;
+}
+
